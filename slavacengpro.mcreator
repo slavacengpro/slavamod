@@ -1,0 +1,184 @@
+{
+  "mod_elements": [
+    {
+      "name": "Oghnienyislitok",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oghnienyislitok",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/slavacengpro/item/OghnienyislitokItem.java",
+          "src/main/resources/assets/slavacengpro/models/item/oghnienyislitok.json"
+        ]
+      }
+    },
+    {
+      "name": "Kraftoghnienovoslitka",
+      "type": "recipe",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kraftoghnienovoslitka",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/slavacengpro/recipes/kraftoghnienovoslitka.json"
+        ]
+      }
+    },
+    {
+      "name": "Oghnienyimiech",
+      "type": "tool",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oghnienyimiech",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/slavacengpro/models/item/oghnienyimiech.json",
+          "src/main/java/net/mcreator/slavacengpro/item/OghnienyimiechItem.java"
+        ]
+      }
+    },
+    {
+      "name": "V",
+      "type": "recipe",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "v",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/slavacengpro/recipes/v.json"
+        ]
+      }
+    },
+    {
+      "name": "OghnienyimiechPriShchielchkiePKM",
+      "type": "procedure",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oghnienyimiech_pri_shchielchkie_pkm",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/slavacengpro/procedures/OghnienyimiechPriShchielchkiePKMProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LiedianoimiechPriShchielchkiePKM",
+      "type": "procedure",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "liedianoimiech_pri_shchielchkie_pkm",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/slavacengpro/procedures/LiedianoimiechPriShchielchkiePKMProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Liedianoimiech",
+      "type": "tool",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "liedianoimiech",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/slavacengpro/item/LiedianoimiechItem.java",
+          "src/main/resources/assets/slavacengpro/models/item/liedianoimiech.json"
+        ]
+      }
+    },
+    {
+      "name": "Paskhalnoieizmierieniie",
+      "type": "dimension",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "paskhalnoieizmierieniie",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/slavacengpro/dimension/paskhalnoieizmierieniie.json",
+          "src/main/java/net/mcreator/slavacengpro/world/teleporter/PaskhalnoieizmierieniieTeleporter.java",
+          "src/main/resources/assets/slavacengpro/models/block/paskhalnoieizmierieniie_portal_ew.json",
+          "src/main/resources/assets/slavacengpro/models/block/paskhalnoieizmierieniie_portal_ns.json",
+          "src/main/java/net/mcreator/slavacengpro/block/PaskhalnoieizmierieniiePortalBlock.java",
+          "src/main/java/net/mcreator/slavacengpro/world/teleporter/PaskhalnoieizmierieniiePortalShape.java",
+          "src/main/resources/data/slavacengpro/dimension_type/paskhalnoieizmierieniie.json",
+          "src/main/resources/assets/slavacengpro/blockstates/paskhalnoieizmierieniie_portal.json",
+          "src/main/java/net/mcreator/slavacengpro/world/dimension/PaskhalnoieizmierieniieDimension.java",
+          "src/main/java/net/mcreator/slavacengpro/item/PaskhalnoieizmierieniieItem.java",
+          "src/main/resources/assets/slavacengpro/models/item/paskhalnoieizmierieniie.json"
+        ]
+      }
+    },
+    {
+      "name": "Kriestizdoors",
+      "type": "tool",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kriestizdoors",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/slavacengpro/models/item/kriestizdoors.json",
+          "src/main/java/net/mcreator/slavacengpro/item/KriestizdoorsItem.java"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.slavacengpro.paskhalnoieizmierieniie": "Paskhalnoieizmierieniie Portal Igniter",
+      "item.slavacengpro.kriestizdoors": "Kriestizdoors",
+      "item.slavacengpro.liedianoimiech": "Liedianoimiech",
+      "item.slavacengpro.oghnienyislitok": "Oghnienyislitok",
+      "item.slavacengpro.oghnienyimiech": "Oghnienyimiech"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "slavacengpro",
+    "modName": "slavacengpro",
+    "version": "1.0.0",
+    "author": "User, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "modElementsPackage": "net.mcreator.slavacengpro",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300452316
+}
